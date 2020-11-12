@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1605114997 "main.aux" "main.bbl" "main" 1605114998
+["bibtex main"] 1605114997 "main.aux" "main.bbl" "main" 1605115446
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/dinat/dinat.bst" 1136766823 44478 8171722d387d8657f0397923511dcd08 ""
   "bibliographie_victor.bib" 1605114099 93870 d001634abc3ea4221de6f3778e30f7aa ""
   "main.aux" 1605114998 4069 88bcb5a0b58a1b8348a5d37e3a0b2603 "pdflatex"
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1605114997 "main.tex" "main.pdf" "main" 1605114998
+["pdflatex"] 1605114997 "main.tex" "main.pdf" "main" 1605115446
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1388795362 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc" 1388795362 2836 154e6b0061f9b8cb549144b55b268339 ""
@@ -192,8 +192,8 @@
   "main.tex" 1605114099 5936 24d0d2fe47883681d5a71202da0915d5 ""
   "main.toc" 1605114998 762 fd945e8af5ea6f26e3c52f8e858978e2 "pdflatex"
   (generated)
-  "main.log"
   "main.aux"
   "main.toc"
-  "main.out"
   "main.pdf"
+  "main.log"
+  "main.out"
