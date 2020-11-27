@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1605114997 "main.aux" "main.bbl" "main" 1605115446
+["bibtex main"] 1605114997 "main.aux" "main.bbl" "main" 1606495957
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/dinat/dinat.bst" 1136766823 44478 8171722d387d8657f0397923511dcd08 ""
   "bibliographie_victor.bib" 1605114099 93870 d001634abc3ea4221de6f3778e30f7aa ""
-  "main.aux" 1605114998 4069 88bcb5a0b58a1b8348a5d37e3a0b2603 "pdflatex"
+  "main.aux" 1606495956 4069 88bcb5a0b58a1b8348a5d37e3a0b2603 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1605114997 "main.tex" "main.pdf" "main" 1605115446
+  "main.blg"
+["pdflatex"] 1606495956 "main.tex" "main.pdf" "main" 1606495957
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1388795362 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc" 1388795362 2836 154e6b0061f9b8cb549144b55b268339 ""
@@ -186,14 +186,14 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1605112914 2432463 3221ce116c089decadd3f20166b0caa6 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "main.aux" 1605114998 4069 88bcb5a0b58a1b8348a5d37e3a0b2603 "pdflatex"
+  "main.aux" 1606495956 4069 88bcb5a0b58a1b8348a5d37e3a0b2603 "pdflatex"
   "main.bbl" 1605114997 9477 e7e65e0b5b198f2057cb9fec8bb5618f "bibtex main"
-  "main.out" 1605114998 605 bb60805b244d5465ff580564050a5161 "pdflatex"
-  "main.tex" 1605114099 5936 24d0d2fe47883681d5a71202da0915d5 ""
-  "main.toc" 1605114998 762 fd945e8af5ea6f26e3c52f8e858978e2 "pdflatex"
+  "main.out" 1606495956 605 bb60805b244d5465ff580564050a5161 "pdflatex"
+  "main.tex" 1606495712 6350 9503f4fc48b14e33552827858705b3b5 ""
+  "main.toc" 1606495956 762 fd945e8af5ea6f26e3c52f8e858978e2 "pdflatex"
   (generated)
-  "main.aux"
-  "main.toc"
   "main.pdf"
+  "main.aux"
   "main.log"
   "main.out"
+  "main.toc"
