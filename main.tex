@@ -50,17 +50,22 @@
 \author{Victor Paredes}
 \date{Novembre 2020}
 
+% Table of content
+\usepackage{tocloft}
+\setcounter{tocdepth}{5}
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+\cftsetindents{subsubsection}{1em}{2.5em}
+\cftsetindents{paragraph}{4em}{0em}
+
+
 \begin{document}
 
 \maketitle
 
 \tableofcontents
 
-\section{Music}
-
-\subsection{Learning}
-\subsubsection{Collaborative learning}
-\textit{Collaborative Learning in Music Education: A Review of the Literature} \citep{luce_collaborative_2001}
+\paragraph{Collaborative Learning in Music Education: A Review of the Literature} \citep{luce_collaborative_2001}
 \begin{itemize}
     \item collaborative learning is defined by three principles :
     \begin{enumerate}
@@ -72,14 +77,14 @@
     \item in a collaborative learning environment, the responsibility of maintaining the integrity and vitality of music is shared between teachers and students as they form a "community of knowledgeable peer".
 \end{itemize}
 
-\textit{Collaborative learning in higher music education} \citep{gaunt_collaborative_2016} -
+\paragraph{Collaborative Learning in Higher Music Education} \citep{gaunt_collaborative_2016} -
 collection of research articles and reports on collaborative learning practices in higher music education. General observations drawn from the articles :
 \begin{itemize}
     \item collaborative learning appears to help the participants reflect on and express their fundamental values as artists and/or pedagogues;
     \item contrary to expectations, individual art forms are not muzzled when engaging in a collaborative learning practice, but rather deepened through its experience.
 \end{itemize}
 
-\textit{Collaborative Learning with Interactive Music Systems} \citep{marquez-borbon_collaborative_2020}
+\paragraph{Collaborative Learning with Interactive Music Systems} \citep{marquez-borbon_collaborative_2020}
 \begin{itemize}
     \item four participants were given a newly designed DMI and put in a collaborative learning setup consisting of several workshops over the course of 6 months;
     \item the collaborative process allowed for the definition of learning goals by the team that both oriented and motivated practice;
@@ -87,139 +92,188 @@ collection of research articles and reports on collaborative learning practices 
 \end{itemize}
 
 
-\subsubsection{Appropriation}
-\textit{The Problem of DMI Adoption and Longevity: Envisioning a NIME Performance Pedagogy} \citep{marquez-borbon_problem_2018}
+\paragraph{The Problem of DMI Adoption and Longevity: Envisioning a NIME Performance Pedagogy} \citep{marquez-borbon_problem_2018}
 \begin{itemize}
     \item NIME's ecologically motivated pedagogy is oriented toward the design and the creation of DMIs rather than the development of musical performance;
     \item the authors suggest that the longevity of a DMI should be sought by questioning how well it connects with performance practices rather than how easy it is to adopt it;
     \item this questioning must consider the academic and professional communities that support those practices.
 \end{itemize}
 
-\textit{Dimensionality and Appropriation in Digital Musical Instrument Design} \citep{zappi_dimensionality_2014}
+\paragraph{Dimensionality and Appropriation in Digital Musical Instrument Design} \citep{zappi_dimensionality_2014}
 \begin{itemize}
-    \item 
-    \item 
-    \item 
+    \item ten musicians were given a simple instrument allowing control with one degree of freedom for half of them, and two for the others. Each participant presented two performances after practicing at home;
+    \item highly constrained instruments led to diverse and unusual playing styles, each musician shew a certain level of appropriation by finding hidden affordances;
+    \item giving more freedom by adding a second degree of freedom actually reduced exploration by participants and created frustration that was not shown by participants with only one degree of freedom.
+\end{itemize}
+
+\paragraph{Extended Playing Techniques on an Augmented Virtual Percussion Instrument} \citep{zappi_dimensionality_2014}
+\begin{itemize}
+    \item the authors present the Hyper Drumhead, a DMI designed as a "augmented virtual percussion instrument";
+    \item it is based on the simulation of a real-time 2D wave propagation in a massively sized domain, controlled with a 42-inch multi touch screen;
+    \item by simulating physically nearly impossible instruments, this interface allows for real-time interactions similar to a percussion instrument with sounds unreachable with traditional augmented instruments.
+\end{itemize}
+
+\paragraph{Hackable Instruments: Supporting Appropriation and Modification in Digital Musical Interaction} \citep{zappi_dimensionality_2014}
+
+
+\paragraph{P(l)aying Attention: Multi-modal, multi-temporal music control} \citep{gold_playing_2020} - people with impaired physical capabilities can have difficulties using movement interfaces to express themselves freely, in particularly those suffering from chronic pain. The authors have developed a movement sonification system to help physiotherapist working with this type of patients.
+\begin{itemize}
+    \item the aim of the sonification is to get the user to focus on particular groups of articulations through the manipulation of the mixing volume of a pre-recorded multi-track;
+    \item the mapping is done automatically with a machine learning model extracting the joint groups from motion capture data of everyday activities along with physiotherapist's annotations: 
+    \item proof of concept : the system can effectively extract joint groups and map them to musical features, however the system still can't process movement in real-time.
+\end{itemize}
+
+\paragraph{Reflections on Eight Years of Instrument Creation with Machine Learning} \citep{fiebrink_reflections_2020} - after eight years of collaboration between musician Laetitia Sonami and Rebeccas Fiebrink, designer of the machine learning mapping software Wekinator. They give their feedback and perspectives on using ML for mapping in NIME practices.
+\begin{itemize}
+    \item ML for mapping can handle a lot of inputs and outputs, however few synthesis methods really benefit from controlling a lot of parameters in real time;
+    \item the possibility to save, modify and recall mappings easily through a user-friendly interface allows for a creative process favoring the exploration of new interactions between the interface and the sound;
+    \item the value of ML for instrument building does not lie in its capacity to build accurate models from examples but rather support richer modes of interaction that could not be achieved through conventional programming.
+\end{itemize}
+
+\paragraph{Motion-Sound Mapping through Interaction: An Approach to User-Centered Design of Auditory Feedback Using Machine Learning} \citep{francoise_motion-sound_2018}
+
+\paragraph{Ecological considerations for participatory design of DMIs} \citep{fyans_ecological_2012}
+This study investigate the challenges presented with the participatory design (PD) of a DMI. Four "performers" participated in this study.
+\begin{itemize}
+    \item the diversity of origins and subjective goals posed a challenge in the PD process, as any modification to the instrument changed the conceptual expectations everybody had on the system;
+    \item putting the design process in an ecologically valid environment, particularly including performances of every participant with an audience, helped the participants in understanding skills for this particular instrument and thus forming meaningful judgments on ;
+    \item however, the audience was unable to assess correctly the skill of each musician despite viewing various performances of the same instrument. They relied on inaccurate mental models of the instrument to inform judgment. 
 \end{itemize}
 
 
-\subsubsection{instrumental constraint and creativity}
-\textit{Dimensionality and Appropriation in Digital MusicalInstrument Design} \citep{zappi_dimensionality_2014}
+
+\paragraph{GeKiPe, a gesture-based interface for audiovisual performance} \citep{fernandez_gekipe_2017} 
+
+\paragraph{Live-Coding Movement-Sound Interactions for Dance Improvisation} \citep{francoise_live-coding_2020} 
+
+\paragraph{Extended Playing Techniques on an Augmented Virtual Percussion Instrument} \citep{zappi_extended_2018} 
+
+\paragraph{The D-Box: How to rethink a digital musical instrument} \citep{zappi_d-box_2015} 
+
+\paragraph{SoundGuides:Adapting Continuous Auditory Feedback to Users} \citep{francoise_soundguides_2016} 
 \begin{itemize}
-    \item 
-    \item 
-    \item 
+    \item SoundGuides is an interactive machine learning tool for continuous auditory feedback on movements;
+    \item designers can create their own set of movements synchronized with sound examples and choose which sound features are going to evolve with movements, then the system create the mapping between movement and sound;
 \end{itemize}
 
-
-
-\subsection{Transmission}
-
-
-
-\subsection{Design}
-\subsubsection{Adaptability}
-\textbf{For learning}\\
-\textit{P(l)aying Attention: Multi-modal, multi-temporal music control} \citep{gold_playing_2020}
+\paragraph{Exploring different movement sonification strategies for rehabilitation in clinical settings} \citep{bevilacqua_exploring_2018}
 \begin{itemize}
-    \item 
-    \item 
-    \item 
+    \item this paper describes a movement sonification system for rehabilitation of arm movements for patients suffering from strokes;
+    \item four different sonification strategies were tested, two linking directly the reaching distance to the pitch or the tempo of the sound, one playing a musical track with tempo following the movement and a last one exploring environmental sounds
+    \item the two first strategies were not considered interesting or motivating by users while being the clearest perceptually, putting forward sound quality considerations when designing sonification strategies in this context.
 \end{itemize}
 
-\textbf{For personalisation}\\
-\textit{Reflections on Eight Years of Instrument Creationwith Machine Learning} \citep{fiebrink_reflections_2020}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{De-Mo: designing action-sound relationships with the mo interfaces} \citep{bevilacqua_-mo_2013}
 
-\textit{Motion-Sound Mapping through Interaction: An Approach to User-Centered Design of Auditory Feedback Using Machine Learning} \citep{francoise_motion-sound_2018}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Sensori-Motor Learning with Movement Sonification:Perspectives from Recent Interdisciplinary Studies} \citep{bevilacqua_sensori-motor_2016}
 
-\subsection{Goals and subjectivity}
-\textit{Ecological considerations for participatory design of DMIs} \citep{fyans_ecological_2012}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Modular musical objects towards embodied control of digital music} \citep{rasamimanana_modular_2011}
 
+\paragraph{Augmented feedback for learning single-legged stance on a slackline} \citep{anlauff_augmented_2013}
 
-\section{Interactive systems}
+\paragraph{An audio game app using interactive movement sonification for targeted posture control} \citep{avissar_audio_2013}
 
-\subsection{Various systems}
+\paragraph{Sensori-Motor Learning with Movement Sonification: Perspectives from Recent Interdisciplinary Studies} \citep{bevilacqua_sensori-motor_2016}
 
-\textit{GeKiPe, a gesture-based interface for audiovisual performance} \citep{gekipe} 
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Designing Action–Sound Metaphors Using Motion Sensing and Descriptor-Based Synthesis of Recorded Sound Materials} \citep{francoise_designing_2017}
 
-\textit{Live-Coding Movement-Sound Interactions for Dance Improvisation} \citep{gekipe} 
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{A combination of one-to-one teaching and small group teaching in higher music education in Norway – a good model for teaching?} \citep{bjontegaard_combination_2015}
 
-\textit{Extended Playing Techniques on an Augmented Virtual Percussion Instrument} \citep{gekipe} 
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Motor Task Variation Induces Structural Learning} \citep{braun_motor_2009}
 
-\textit{The D-Box: How to rethink a digital musical instrument} \citep{gekipe} 
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Elemental: a Gesturally Controlled System to Perform Meteorological Sounds} \citep{brizolara_elemental_2020}
 
+\paragraph{A tutorial on task-parameterized movement learning and retrieval} \citep{calinon_tutorial_2016}
 
-\section*{to be classified}
-\textit{SoundGuides:Adapting Continuous Auditory Feedback to Users} \citep{francoise_soundguides_2016} 
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Statistical dynamical systems for skills acquisition in humanoids} \citep{calinon_statistical_2012}
 
-\textit{Exploring different movement sonification strategiesfor rehabilitation in clinical settings} \citep{bevilacqua_exploring_2018}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Dissociable effects of practice variability on learning motor and timing skills} \citep{caramiaux_dissociable_2018}
 
-\textit{De-Mo: designing action-sound re-lationships with the mo interfaces} \citep{bevilacqua_-mo_2013}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Machine Learning Approaches For Motor Learning: A Short Review} \citep{caramiaux_machine_2020}
 
-\textit{Sensori-Motor Learning with Movement Sonification:Perspectives from Recent Interdisciplinary Studies} \citep{bevilacqua_sensori-motor_2016}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning} \citep{cote-allard_deep_2019}
 
-\textit{Modular musical objects towards embodied control of digital music} \citep{rasamimanana_modular_2011}
-\begin{itemize}
-    \item 
-    \item 
-    \item 
-\end{itemize}
+\paragraph{SQUISHBOI: A Multidimensional Controller for Complex Musical Interactions using Machine Learning} \citep{desmith_squishboi_2020}
 
+\paragraph{Adaptive Regulation of Motor Variability} \citep{dhawale_adaptive_2019}
+
+\paragraph{The Role of Variability in Motor Learning} \citep{dhawale_role_2017}
+
+\paragraph{One-Shot Imitation Learning} \citep{duan_one-shot_2017}
+
+\paragraph{Advantages of melodic over rhythmic movement sonification in bimanual motor skill learning} \citep{dyer_advantages_2017}
+
+\paragraph{Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks} \citep{finn_model-agnostic_2017}
+
+\paragraph{Motion-Sound Mapping through Interaction: An Approach to User-Centered Design of Auditory Feedback Using Machine Learning} \citep{francoise_motion-sound_2018}
+
+\paragraph{Designing for kinesthetic awareness: Revealing user experiences through second-person inquiry} \citep{francoise_designing_2017}
+
+\paragraph{Decomposing motion that changes over time into task-relevant and task-irrelevant components in a data-driven manner: application to motor adaptation in whole-body movements} \citep{furuki_decomposing_2019}
+
+\paragraph{How popular musicians learn: a way ahead for music education} \citep{green_how_2002}
+
+\paragraph{A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications} \citep{gui_review_2020}
+
+\paragraph{Boom town music education: a co-creating way to learn music within formal music education} \citep{gullberg_boom_2006}
+
+\paragraph{The Statistical Determinants of the Speed of Motor Learning} \citep{he_statistical_2016}
+
+\paragraph{A deep learning framework for character motion synthesis and editing} \citep{holden_deep_2016}
+
+\paragraph{Embodied Engagement: Supporting Movement Awareness in Ubiquitous Computing Systems}
+
+\paragraph{Learning parametric dynamic movement primitives from multiple demonstrations} \citep{matsubara_learning_2011}
+
+\paragraph{Body Pose Sonification for a View-Independent Auditory Aid to Blind Rock Climbers} \citep{ramsay_body_2020}
+
+\paragraph{Modular musical objects towards embodied control of digital music} \citep{rasamimanana_modular_2011}
+
+\paragraph{The role of motor variability in motor control and learning depends on the nature of the task and the individual’s capabilities} \citep{sanchez_role_2017}
+
+\paragraph{A Review on the Relationship Between Sound and Movement in Sports and Rehabilitation} \citep{schaffert_review_2019}
+
+\paragraph{Instrumental Technique, Expressivity, and Communication. A Qualitative Study on Learning Music in Individual and Collective Settings} \citep{schiavio_instrumental_2019}
+
+\paragraph{Transfer Learning of Complex Motor Skills on the Humanoid Robot Affetto} \citep{schulz_transfer_2018}
+
+\paragraph{Real-Time Corpus-Based Concatenative Synthesis with CataRT} \citep{schwarz_real-time_2006}
+
+\paragraph{Designing Deep Reinforcement Learning for Human Parameter Exploration} \citep{scurto_designing_2019}
+
+\paragraph{Somatosensory working memory in human reinforcement-based motor learning} \citep{sidarta_somatosensory_2018}
+
+\paragraph{Augmented visual, auditory, haptic, and multimodal feedback in motor learning: A review} \citep{sigrist_augmented_2013}
+
+\paragraph{Human movement variability, nonlinear dynamics, and pathology: Is there a connection?} \citep{stergiou_human_2011}
+
+\paragraph{It's not (only) the mean that matters: variability, noise and exploration in skill learning} \citep{sternad_its_2018}
+
+\paragraph{Meta-transfer learning for few-shot learning} \citep{sun_meta-transfer_2019}
+
+\paragraph{Transfer learning for reinforcement learning domains: A survey.} \citep{taylor_transfer_2009}
+
+\paragraph{Increasing Motor Noise Impairs Reinforcement Learning in Healthy Individuals} \citep{therrien_increasing_2018}
+
+\paragraph{Cycle-Consistent Adversarial Learning as Approximate Bayesian Inference} \citep{tiao_cycle-consistent_2018}
+
+\paragraph{Rebuilding and Reinterpreting a Digital Musical Instrument — The Sponge} \citep{tom_rebuilding_2019}
+
+\paragraph{Early stages of sensorimotor map acquisition: learning with free exploration, without active movement or global structure} \citep{van_vugt_early_2019}
+
+\paragraph{The Structure and Acquisition of Sensorimotor Maps} \citep{van_vugt_structure_2018}
+
+\paragraph{From known to unknown: moving to unvisited locations in a novel sensorimotor map: Moving to unvisited locations in sensorimotor maps} \citep{van_vugt_known_2018}
+
+\paragraph{Planning Movements in a Simple Redundant Task} \citep{vetter_planning_2002}
+
+\paragraph{A survey of transfer learning} \citep{weiss_survey_2016}
+
+\paragraph{Principles of sensorimotor learning} \citep{wolpert_principles_2011}
+
+\paragraph{Temporal structure of motor variability is dynamically regulated and predicts motor learning ability} \citep{wu_temporal_2014}
+
+\paragraph{Sonic trainer: real-time sonification of muscular activity and limb positions in general physical exercise} \citep{yang_sonic_2013}
 
 \newpage
 \bibliographystyle{dinat}
